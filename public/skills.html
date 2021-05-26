@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css styles -->
+    <link rel="stylesheet" href="./../assets/css/navbar.css">
+    <link rel="stylesheet" href="./../assets/css/skills.css">
+
+    <!-- Image link -->
+    <a href="https://icons8.com/icon/xxO2L41rNRhk/html-5"></a>
+    <a href="https://icons8.com/icon/38272/css3"></a>
+    <a href="https://icons8.com/icon/106036/javascript-logo"></a>
+    <title>My Skills</title>
+</head>
+<body>
+    <!-- Menu nav bar -->
+    <header>
+        <nav>
+            <div class="logo-wrapper">
+                <img src="./../assets/img/favicon (3).ico" alt="image"> 
+            </div>
+            <div class="nav-items open-nav-items" id="nav-item-wrapper">
+                <a href="./../index.html" class="nav-links">Home</a>
+                <a href="#" class="nav-links">Skills</a>
+                <a href="./about.html" class="nav-links">About</a>
+                <a href="mailto:abiodunyusuf4@email.com" class="nav-links">Contact Me</a>
+            </div>
+            <div class="hamburger-wrapper" id="menu-toggler" onclick="toggleNavbar()">
+                <img class="hamburger" src="https://img.icons8.com/android/24/000000/menu.png"/>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="skills">
+            <!-- HTML SECTION -->
+            <section class="html">
+                <!-- skill icon -->
+                <div class="skill-icon-container">
+                    <img src="https://img.icons8.com/fluent-systems-filled/48/000000/html-5.png"/>
+                </div>
+                <!-- skill description -->
+                <div class="skills-desciption">
+                    <p>I know HTML very well</p>
+                    <progress value="89" max="100"> 32% </progress>
+                </div>
+            </section>
+
+            <!-- CSS SECTION -->
+            <section class="css">
+                <!-- skill icon -->
+                <div class="skill-icon-container">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/css3.png"/>
+                </div>
+                <!-- skill description -->
+                <div class="skills-desciption">
+                    <p>I can design a webiste with CSS very well</p>
+                    <progress value="70" max="100"> 32% </progress>
+                </div>
+            </section>
+
+
+            <!-- JAVASCRIPT SECTION -->
+            <section class="javascript">
+                <!-- skill icon -->
+                <div class="skill-icon-container">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"/>
+                </div>
+                <!-- skill description -->
+                <div class="skills-desciption">
+                    <p>I am proficient in using JavaScript</p>
+                    <progress value="60" max="100"> 32% </progress>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./../assets/js/hamburger.js"></script>
+</body>
+</html>
