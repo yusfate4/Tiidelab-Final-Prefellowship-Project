@@ -4,8 +4,7 @@
 }
 
 body{
-    background-color: #Edffec;
-    /* font-family: "open sans", sans-serif; */
+    background-color: blanchedalmond;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -75,7 +74,7 @@ textarea{
 
 }
 
-.btn{
+/* .btn{
     width: 100%;
     background: #01c2c2;
     height: 40px;
@@ -93,4 +92,70 @@ textarea{
 ::-webkit-input-placeholder{
     text-transform: uppercase;
     font-family: "open sans" sans-serif;
+} */
+
+/* bottom container */
+.bottom-container{
+    color: #11999E;
+    background-color: rgb(47, 46, 65);
+    padding: 40px 10px 16px; 
+    position: relative;
+    top: 150px;
+    font-weight: 60px;
+    
+    
 }
+
+
+/* button */
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    
+    
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #11999e);
+    text-decoration: none;
+}
+
+/* copryright */
+
+.copyright {
+    color: black;
+    font-size: 15px;
+    padding: 40px 0 20px; 
+   
+}
+    © 2021 GitHub, Inc.
